@@ -1,0 +1,159 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: whitesmoke;
+}
+
+.main-body {
+  border: whitesmoke;
+  background: hsl(251, 19%, 18%);
+  background: linear-gradient(90deg, hsl(251, 19%, 18%) 68%, hsl(249, 22%, 23%) 100%);
+  background: -webkit-linear-gradient(90deg, hsl(251, 19%, 18%) 68%, hsl(249, 22%, 23%) 100%);
+  padding-top: 2rem;
+  height: 100%;
+}
+
+.myself {
+  margin-bottom: 2rem;
+}
+.myself img {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+.myself h1 {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.myself p {
+  margin-bottom: 3rem;
+  color: lightgray;
+}
+
+#footer {
+  width: 100%;
+}
+#footer ul li svg {
+  color: #ff4057;
+}
+
+.card-nav {
+  margin-bottom: 2rem;
+}
+.card-nav .skills-link .card {
+  box-shadow: 1px 1px 15px 1px #c23848;
+  border: 0;
+}
+.card-nav .skills-link .card a {
+  color: lightgrey;
+  text-decoration: none;
+}
+.card-nav .skills-link .card a h5 {
+  color: whitesmoke;
+}
+.card-nav .skills-link .card .card-body {
+  padding-top: 5rem;
+  height: 9.2rem;
+  background: #282536;
+}
+
+.card-nav {
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.card-nav .personal-link .card {
+  box-shadow: 1px 1px 15px 1px #c23848;
+  border: 0;
+}
+.card-nav .personal-link .card .card-body {
+  height: 6.2rem;
+  padding-top: 2.5rem;
+  background: #282536;
+}
+.card-nav .personal-link .card .card-body h5 {
+  color: whitesmoke;
+}
+.card-nav .personal-link .card .card-body h5 a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.card-nav {
+  margin-bottom: 2rem;
+}
+.card-nav .projects-link .card {
+  box-shadow: 1px 1px 15px 1px #c23848;
+  border: 0;
+}
+.card-nav .projects-link .card .card-body {
+  height: 4rem;
+  background: #282536;
+}
+.card-nav .projects-link .card .card-body h5 {
+  color: whitesmoke;
+}
+.card-nav .projects-link .card .card-body h5 a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.card-nav {
+  margin-bottom: 2rem;
+}
+.card-nav .arts-link .card {
+  box-shadow: 1px 1px 15px 1px #c23848;
+  border: 0;
+}
+.card-nav .arts-link .card .card-body {
+  background: #282536;
+}
+.card-nav .arts-link .card .card-body h5 {
+  color: whitesmoke;
+}
+.card-nav .arts-link .card .card-body h5 a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.collapse {
+  margin: 1rem;
+  text-align: center;
+}
+
+.navbar {
+  height: 15vh;
+  background: #29263b;
+}
+.navbar a {
+  color: whitesmoke;
+}
+.navbar button {
+  border: 2px outset #ff4057;
+  color: whitesmoke;
+  background: #ff4057;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .btn:hover {
+  background: whitesmoke;
+  color: #ff4057;
+  border: 2px outset #282536;
+}
+.navbar .ham {
+  color: white;
+}
+.navbar .modal-header {
+  background: whitesmoke;
+  color: #ff4057;
+}
+.navbar .modal-body {
+  background: #ff4057;
+  color: #ff4057;
+}/*# sourceMappingURL=main.css.map */

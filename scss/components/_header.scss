@@ -1,0 +1,36 @@
+@use '../partials/variables.scss' as *;
+
+.collapse {
+    margin: 1rem;
+    text-align: center;
+}
+
+.navbar {
+    height: 15vh;
+    background: $nav-hue;
+    a {
+        color: $colors30;
+    }
+    button {
+        border: 2px outset $colors10;
+        color: $colors30;
+        background: $colors10;
+        transition: all 0.3s ease-in-out;
+    }
+    .btn:hover {
+        background: $colors30;
+        color: $colors10;
+        border: 2px outset $colors60;
+    }
+    .ham {
+        color:white;
+    }
+    .modal-header {
+        background: $colors30;
+        color: $colors10;
+    }
+    .modal-body {
+        background: $colors10;
+        color: $colors10;
+    }
+}

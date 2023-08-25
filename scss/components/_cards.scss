@@ -1,0 +1,90 @@
+@use '../partials/variables.scss' as *;
+
+
+// Aligns Card for some reason
+
+.card-nav {
+    margin-bottom: 2rem;
+    .skills-link {
+        .card {
+            a {
+                color: $card-text;
+                text-decoration: none;
+                h5{
+                    color: $colors30;
+                }
+            }
+            box-shadow: 1px 1px 15px 1px $extra-hue;
+            border: 0;
+            .card-body{
+                padding-top: 5rem;
+                height: 9.2rem;
+                background: $colors60;
+            }
+            }
+            }
+}
+.card-nav {
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    .personal-link {
+        .card {
+            box-shadow: 1px 1px 15px 1px $extra-hue;
+            border: 0;
+            .card-body{
+                height: 6.2rem;
+                padding-top: 2.5rem;
+                background: $colors60;
+                h5 {
+                    color: $colors30;
+                    a {
+                        color: $card-text;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card-nav {
+    margin-bottom: 2rem;
+    .projects-link {
+        .card {
+            box-shadow: 1px 1px 15px 1px $extra-hue;
+            border: 0;
+            .card-body{
+                height: 4rem;
+                background: $colors60;
+                h5 {
+                    color: $colors30;
+                    a {
+                        color: $card-text;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card-nav {
+    margin-bottom: 2rem;
+    .arts-link {
+        .card {
+            box-shadow: 1px 1px 15px 1px $extra-hue;
+            border: 0;
+            .card-body{
+                background: $colors60;
+                h5 {
+                    color: $colors30;
+                    a {
+                        color: $card-text;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
