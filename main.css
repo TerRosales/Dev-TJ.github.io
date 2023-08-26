@@ -19,7 +19,7 @@ body {
 }
 
 .myself {
-  margin-bottom: 2rem;
+  margin-bottom: 12rem;
 }
 .myself img {
   padding-top: 3rem;
@@ -31,10 +31,12 @@ body {
   color: whitesmoke;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding-left: 3rem;
 }
 .myself p {
   margin-bottom: 3rem;
   color: lightgray;
+  padding-left: 3rem;
 }
 
 #footer {
