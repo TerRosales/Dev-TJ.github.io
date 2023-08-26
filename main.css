@@ -165,4 +165,8 @@ body {
   background: -webkit-linear-gradient(90deg, hsl(251, 19%, 18%) 68%, hsl(249, 22%, 23%) 100%);
   padding-top: 2rem;
   height: 100%;
+}
+
+.html-logo .html-logo__img {
+  height: 18rem;
 }/*# sourceMappingURL=main.css.map */
