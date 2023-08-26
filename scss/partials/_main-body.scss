@@ -13,6 +13,7 @@
 }
 // Hero Logo
 .myself {
+    margin-bottom: 12rem;
     img {
         padding-top: 3rem;
         padding-left: 3rem;
@@ -23,17 +24,15 @@
         color: $colors30;
         margin-top: 3rem;
         margin-bottom: 3rem;
+        padding-left: 3rem;
     }
     p {
         margin-bottom: 3rem;
         color: lightgray;
-    }
-    margin-bottom: 2rem;
+        padding-left: 3rem;
 }
-
-
+}
 // Footer
-
 #footer {
     width: 100%;
     ul {
