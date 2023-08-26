@@ -177,9 +177,8 @@ body {
   border: 0;
   background: #ff4057;
   animation-name: swing-in-top-fwd;
-  animation-duration: 1.5s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
-  animation-delay: 0.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   background: #282536;
@@ -200,9 +199,8 @@ body {
   color: whitesmoke;
   border: 0;
   animation-name: scale-in-hor-right;
-  animation-duration: 1.5s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
-  animation-delay: 0.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -226,16 +224,15 @@ body {
   border: 0;
   background: #ff4057;
   animation-name: scale-in-left;
-  animation-duration: 1.5s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
-  animation-delay: 0.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   background: #282536;
 }
 
 .js-card {
-  height: 14rem;
+  height: 16rem;
   background: rgba(255, 64, 87, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
@@ -251,16 +248,15 @@ body {
   border: 0;
   background: #ff4057;
   animation-name: scale-in-ver-bottom;
-  animation-duration: 1.5s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
-  animation-delay: 0.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   background: #282536;
 }
 
 .sass-card {
-  height: 16rem;
+  height: 18rem;
   background: rgba(255, 64, 87, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
