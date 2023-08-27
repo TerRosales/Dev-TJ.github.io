@@ -46,6 +46,10 @@ body {
   color: #ff4057;
 }
 
+.carousel-inner .carousel-item img {
+  margin: auto;
+}
+
 .card-nav {
   margin-bottom: 2rem;
 }
