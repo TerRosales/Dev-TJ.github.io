@@ -10,6 +10,9 @@
     background: $nav-hue;
     a {
         color: $colors30;
+        &:hover {
+            color: $colors10;
+        }
     }
     button {
         border: 2px outset $colors10;

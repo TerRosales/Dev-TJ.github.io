@@ -243,6 +243,9 @@ img:hover {
 .navbar a {
   color: whitesmoke;
 }
+.navbar a:hover {
+  color: #ff4057;
+}
 .navbar button {
   border: 2px outset #ff4057;
   color: whitesmoke;
