@@ -1,7 +1,9 @@
 @use '../partials/variables.scss' as *;
 
 // Hero 
-
+#highlights {
+    color: $colors10;
+}
 .main-body {
     border: $colors30;
     background: hsla(251, 19%, 18%, 1);
@@ -13,11 +15,20 @@
 }
 // Hero Logo
 .myself {
+    animation-name: jello-horizontal;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
     margin-bottom: 12rem;
+    
     img {
         padding-top: 3rem;
         padding-left: 3rem;
         margin-bottom: 2rem;
+        &:hover {
+        animation-name: jello-horizontal;
+        animation-duration: 0.8s;
+        animation-timing-function: ease-in-out;
+        }
     }
     h1 {
         font-size: 1.5rem;

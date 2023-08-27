@@ -7,6 +7,13 @@
     margin-bottom: 2rem;
     .skills-link {
         .card {
+            img {
+                min-width: 10rem;
+                min-height: 12rem;
+            }
+            background: $bg;
+            box-shadow: 1px 1px 15px 1px $extra-hue;
+            border: 0;
             a {
                 color: $card-text;
                 text-decoration: none;
@@ -14,11 +21,11 @@
                     color: $colors30;
                 }
             }
-            box-shadow: 1px 1px 15px 1px $extra-hue;
+            
             border: 0;
             .card-body{
                 padding-top: 5rem;
-                height: 9.2rem;
+                height: 12rem;
                 background: $colors60;
             }
             }
@@ -30,6 +37,7 @@
     padding-left: 2rem;
     .personal-link {
         .card {
+            background: $bg;
             box-shadow: 1px 1px 15px 1px $extra-hue;
             border: 0;
             .card-body{
@@ -52,6 +60,7 @@
     margin-bottom: 2rem;
     .projects-link {
         .card {
+            background: $bg;
             box-shadow: 1px 1px 15px 1px $extra-hue;
             border: 0;
             .card-body{
@@ -73,6 +82,7 @@
     margin-bottom: 2rem;
     .arts-link {
         .card {
+            background: $bg;
             box-shadow: 1px 1px 15px 1px $extra-hue;
             border: 0;
             .card-body{

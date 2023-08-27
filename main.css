@@ -9,6 +9,10 @@ body {
   background: whitesmoke;
 }
 
+#highlights {
+  color: #ff4057;
+}
+
 .main-body {
   border: whitesmoke;
   background: hsl(251, 19%, 18%);
@@ -19,12 +23,20 @@ body {
 }
 
 .myself {
+  animation-name: jello-horizontal;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
   margin-bottom: 12rem;
 }
 .myself img {
   padding-top: 3rem;
   padding-left: 3rem;
   margin-bottom: 2rem;
+}
+.myself img:hover {
+  animation-name: jello-horizontal;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
 }
 .myself h1 {
   font-size: 1.5rem;
@@ -46,16 +58,103 @@ body {
   color: #ff4057;
 }
 
-.carousel-inner .carousel-item img {
-  margin: auto;
+@media (min-width: 1600px) {
+  .family--section img {
+    margin-left: 10rem;
+  }
+  .family--section h4 {
+    color: whitesmoke;
+    font-size: 4rem;
+  }
+  .family--section p {
+    color: whitesmoke;
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .family--section img {
+    min-width: 20rem;
+  }
+  .family--section h4 {
+    color: whitesmoke;
+    font-size: 3rem;
+  }
+  .family--section p {
+    color: whitesmoke;
+    font-size: 16px;
+  }
+}
+@media (min-width: 375px) {
+  .family--section h4 {
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+  .family--section p {
+    color: whitesmoke;
+    font-size: 16px;
+  }
+}
+.about-us-body {
+  border: whitesmoke;
+  background: hsl(251, 19%, 18%);
+  background: linear-gradient(90deg, hsl(251, 19%, 18%) 68%, hsl(249, 22%, 23%) 100%);
+  background: -webkit-linear-gradient(90deg, hsl(251, 19%, 18%) 68%, hsl(249, 22%, 23%) 100%);
+  padding-top: 2rem;
+  height: 115%;
+}
+
+.family--section {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.family--section img {
+  margin-left: 10rem;
+  border-radius: 15%;
+}
+.family--section h4 {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  color: whitesmoke;
+}
+.family--section p {
+  text-align: left;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: whitesmoke;
+}
+
+img:hover {
+  animation-name: jello-horizontal;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+}
+
+.family--text-box {
+  background: rgba(255, 64, 87, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.family--text-box:hover {
+  animation-name: jello-horizontal;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
 }
 
 .card-nav {
   margin-bottom: 2rem;
 }
 .card-nav .skills-link .card {
+  background: #282536;
   box-shadow: 1px 1px 15px 1px #c23848;
   border: 0;
+  border: 0;
+}
+.card-nav .skills-link .card img {
+  min-width: 10rem;
+  min-height: 12rem;
 }
 .card-nav .skills-link .card a {
   color: lightgrey;
@@ -66,7 +165,7 @@ body {
 }
 .card-nav .skills-link .card .card-body {
   padding-top: 5rem;
-  height: 9.2rem;
+  height: 12rem;
   background: #282536;
 }
 
@@ -76,6 +175,7 @@ body {
   padding-left: 2rem;
 }
 .card-nav .personal-link .card {
+  background: #282536;
   box-shadow: 1px 1px 15px 1px #c23848;
   border: 0;
 }
@@ -96,6 +196,7 @@ body {
   margin-bottom: 2rem;
 }
 .card-nav .projects-link .card {
+  background: #282536;
   box-shadow: 1px 1px 15px 1px #c23848;
   border: 0;
 }
@@ -115,6 +216,7 @@ body {
   margin-bottom: 2rem;
 }
 .card-nav .arts-link .card {
+  background: #282536;
   box-shadow: 1px 1px 15px 1px #c23848;
   border: 0;
 }
@@ -192,7 +294,7 @@ body {
 
 .html-card {
   transition: all 2s ease-in-out;
-  height: 26rem;
+  height: 23rem;
   background: rgba(255, 64, 87, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
@@ -202,7 +304,7 @@ body {
 }
 .html-card:hover {
   animation-name: jello-horizontal;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -223,7 +325,7 @@ body {
 
 .css-card {
   transition: all 2s ease-in-out;
-  height: 17rem;
+  height: 23rem;
   background: rgba(255, 64, 87, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
@@ -233,7 +335,7 @@ body {
 }
 .css-card:hover {
   animation-name: jello-horizontal;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -242,7 +344,6 @@ body {
   margin-bottom: 2rem;
   color: whitesmoke;
   border: 0;
-  background: #ff4057;
   animation-name: scale-in-left;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
@@ -263,7 +364,7 @@ body {
 }
 .js-card:hover {
   animation-name: jello-horizontal;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -284,7 +385,7 @@ body {
 
 .sass-card {
   transition: all 2s ease-in-out;
-  height: 22rem;
+  height: 23rem;
   background: rgba(255, 64, 87, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
@@ -294,7 +395,7 @@ body {
 }
 .sass-card:hover {
   animation-name: jello-horizontal;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
