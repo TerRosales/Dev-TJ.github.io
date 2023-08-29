@@ -6,10 +6,10 @@
 .card-nav {
     margin-bottom: 2rem;
     .skills-link {
+        min-width: 10rem;
         .card {
             img {
-                min-width: 10rem;
-                min-height: 12rem;
+                min-height: 10rem;
             }
             background: $bg;
             box-shadow: 1px 1px 15px 1px $extra-hue;

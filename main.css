@@ -9,6 +9,10 @@ body {
   background: whitesmoke;
 }
 
+#footer {
+  margin-top: 7rem;
+}
+
 #highlights {
   color: #ff4057;
 }
@@ -26,7 +30,7 @@ body {
   animation-name: jello-horizontal;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
 }
 .myself img {
   padding-top: 3rem;
@@ -58,17 +62,25 @@ body {
   color: #ff4057;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 2560px) {
   .family--section img {
     margin-left: 10rem;
   }
   .family--section h4 {
     color: whitesmoke;
-    font-size: 4rem;
+    font-size: 15rem;
   }
   .family--section p {
     color: whitesmoke;
     font-size: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .myself h1 {
+    font-size: 3.5rem;
+  }
+  .myself p {
+    font-size: 1rem;
   }
 }
 @media (min-width: 768px) {
@@ -83,6 +95,12 @@ body {
     color: whitesmoke;
     font-size: 16px;
   }
+  .myself h1 {
+    font-size: 2.5rem;
+  }
+  .myself p {
+    font-size: 0.8rem;
+  }
 }
 @media (min-width: 375px) {
   .family--section h4 {
@@ -92,6 +110,12 @@ body {
   .family--section p {
     color: whitesmoke;
     font-size: 16px;
+  }
+  .myself h1 {
+    font-size: 2.5rem;
+  }
+  .myself img {
+    margin-left: -1rem;
   }
 }
 .about-us-body {
@@ -146,6 +170,9 @@ img:hover {
 .card-nav {
   margin-bottom: 2rem;
 }
+.card-nav .skills-link {
+  min-width: 10rem;
+}
 .card-nav .skills-link .card {
   background: #282536;
   box-shadow: 1px 1px 15px 1px #c23848;
@@ -153,8 +180,7 @@ img:hover {
   border: 0;
 }
 .card-nav .skills-link .card img {
-  min-width: 10rem;
-  min-height: 12rem;
+  min-height: 10rem;
 }
 .card-nav .skills-link .card a {
   color: lightgrey;
