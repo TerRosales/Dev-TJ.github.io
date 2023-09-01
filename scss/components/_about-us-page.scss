@@ -48,3 +48,18 @@ img:hover {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+.rosy-section {
+    &:hover {
+        animation-name: jello-horizontal;
+        animation-duration: 0.8s;
+        animation-timing-function: ease-in-out;
+    }
+    img {
+        animation-name:slide-in-blurred-left;
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+}
