@@ -16,6 +16,7 @@ body {
 
 #highlights {
   transition: all 0.5s ease-in-out;
+  font-family: "lisbeth-display", sans-serif;
   color: #ff4057;
 }
 #highlights:hover {
@@ -24,6 +25,7 @@ body {
 
 #highlights-2 {
   transition: all 0.5s ease-in-out;
+  font-family: "lisbeth-display", sans-serif;
 }
 #highlights-2:hover {
   color: #ff4057;
@@ -195,17 +197,14 @@ img:hover {
   animation-timing-function: ease-in-out;
 }
 
-.rosy-section:hover {
+.rosy-section {
+  transition: all 0.5 ease-in-out;
+}
+
+img:hover {
   animation-name: jello-horizontal;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
-}
-.rosy-section img {
-  animation-name: slide-in-blurred-left;
-  animation-duration: 0.5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .card-nav {
@@ -314,6 +313,7 @@ img:hover {
   color: #ff4057;
 }
 .navbar button {
+  padding-bottom: 10px;
   border: 2px outset #ff4057;
   color: whitesmoke;
   background: #ff4057;
