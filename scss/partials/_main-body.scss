@@ -2,7 +2,18 @@
 
 // Hero 
 #highlights {
+    transition: all 0.5s ease-in-out;
     color: $colors10;
+    &:hover {
+        color: $colors30;
+    }
+}
+
+#highlights-2 {
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        color: $colors10;
+    }
 }
 .main-body {
     border: $colors30;
@@ -39,9 +50,11 @@
     }
     p {
         margin-bottom: 3rem;
-        color: lightgray;
+        color: $colors30;
         padding-left: 2rem;
+        line-height: 2;
 }
+
 }
 // Footer
 #footer {

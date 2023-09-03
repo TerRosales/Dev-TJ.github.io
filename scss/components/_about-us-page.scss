@@ -1,5 +1,15 @@
 @use '../partials/variables.scss' as *;
 
+.about-us-h1 {
+    text-align: center;
+    color: $colors10;
+    margin: 0rem 0rem 4rem 0rem;
+    h1 {
+        font-family:  "lisbeth-display", sans-serif;
+        font-size: 3rem;
+    }
+}
+
 .about-us-body {
     border: $colors30;
     background: hsla(251, 19%, 18%, 1);
@@ -14,7 +24,9 @@
     margin-top: 2rem;
     margin-bottom: 4rem;
     img{
-        margin-left: 10rem;
+        min-width: 9rem;
+        min-height: 6rem;
+        margin-left: 5rem;
         border-radius: 15%;
     }
     h4 {

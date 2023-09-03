@@ -1,8 +1,25 @@
 @use '../partials/variables.scss' as *;
 
+// Fonts 
+
+// Lisbeth Regular
+// font-family: "lisbeth", sans-serif;
+// font-weight: 400;
+// font-style: normal;
+
+// Lisbeth Bold
+// font-family: "lisbeth", sans-serif;
+// font-weight: 700;
+// font-style: normal;
+
+// Lisbeth Display Regular
+// font-family: "lisbeth-display", sans-serif;
+// font-weight: 400;
+// font-style: normal;
 
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: "lisbeth", sans-serif;
 }
 
 body {
